@@ -33,9 +33,9 @@ def run() -> None:
     """
     # Sample inputs - can be modified as needed
     inputs = {
-        'person': 'Akshat Srivastava',
+        'person': 'Abhinava Bharat',
         'event': "Birthday",
-        'event_date': '18-01-2001',
+        'event_date': '20-01-1997',
         'company': 'AB InBev/Anheuser-Busch InBev GCC',
         'words':'200',
     }
