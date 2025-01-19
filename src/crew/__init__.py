@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 
 # Load environment variables from .env file
-load_dotenv(dotenv_path=r'/Users/abhinavgavireddi/Desktop/projects/engagement_project/happy_guy/.env')
+load_dotenv()
 
 # Set required API keys from environment variables
 os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
