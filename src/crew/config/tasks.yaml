@@ -1,0 +1,31 @@
+data_collection_task:
+  description: >
+    Collect comprehensive and current information about {person} from {company} by exploring credible online sources such as LinkedIn, {company} websites, news articles, and social media platforms.
+    Focus on extracting relevant insights like recent achievements, career milestones, awards, and professional highlights to personalize the {event} message.
+  expected_output: >
+    A well-structured markdown file detailing {person}'s accomplishments, professional growth, and key contributions at {company}.
+    This information will form the foundation for crafting a meaningful and personalized {event} message. 
+    The output must not include any greetings, end wishes, signatures, or images. enclose the paragraphs in <p> tags and use style - text-align: justify, color: #000000.
+
+content_generation_task:
+  description: >
+    Analyze the collected data to understand {person}'s professional journey, achievements, and personality traits.  
+    Craft a heartfelt, emotionally engaging {event} message tailored for {event_date}, reflecting warmth, sincerity, and positivity.  
+    The content must be deeply personal, celebrating {person}'s unique accomplishments and the significance of the occasion.  
+    Ensure the message is comprehensive, coherent, and meets the required word count of {words} words.  
+    The message should be well-structured with clear transitions between ideas, offering a seamless reading experience.  
+
+  expected_output: >
+    A thoughtfully written {words}-word {event} message that emotionally resonates with {person}, celebrating their achievements and making the occasion memorable.  
+    The output **must not** include any greetings, closing wishes, signatures, or images.  
+    Each paragraph must be enclosed in `<p>` tags and styled using: `text-align: justify; color: #000000;`.  
+    Ensure the final content is polished, emotionally impactful, and visually clean.
+
+tone_adjustment_task:
+  description: >
+    Review the generated {event} message and refine its tone to align with {person}'s personality, the nature of the {event}, and {company} theme. 
+    Adjust the tone to be aligned with the {company}'s theme and culture, ensuring the message is impactful and fitting for {person}.
+    Keep the message short and sweet.
+  expected_output: >
+    A polished and emotionally resonant email body with the ideal tone, perfectly suited for the {event} with word count of {words} words and requiring no further edits or additions. 
+    The output must not include any greetings, end wishes, signatures, or images. enclose the paragraphs in <p> tags and use style - text-align: justify, color: #000000.
